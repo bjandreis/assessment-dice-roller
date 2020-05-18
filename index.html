@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="main-block">
+        
+        <div id="dice-select-block">
+            <span id="dice-4s">
+                <img src="./images/dice_4.png" alt="4 sided dice" style="width:64px;height:64px;">
+            </span>
+            <span id="dice-6s">
+                <img src="./images/dice_6.png" alt="6 sided dice" style="width:64px;height:64px;">
+            </span>
+            <span id="dice-8s">
+                <img src="./images/dice_8.png" alt="8 sided dice" style="width:64px;height:64px;">
+            </span>
+            <span id="dice-10s">
+                <img src="./images/dice_10.png" alt="10 sided dice" style="width:64px;height:64px;">
+            </span>
+            <span id="dice-12s">
+                <img src="./images/dice_12.png" alt="12 sided dice" style="width:64px;height:64px;">
+            </span>
+            <span id="dice-20s">
+                <img src="./images/dice_20.png" alt="20 sided dice" style="width:64px;height:64px;">
+            </span>
+            <p id="dice-sides-message">Select a dice. The current dice has 6 sides.</p>
+        </div>
+        
+        <hr>
+
+        <span id="input-block">
+            <p>How many dice would you like to roll?</p>
+            <input type="text" name="user-input" id="user-input" size="1" maxlength="1" placeholder="#">
+            &nbsp;<button id="user-input-button">Roll</button>
+            &nbsp;<button id="show-all-rolls-button">Show All Rolls</button>
+            &nbsp;<button id="reset-button">Reset</button>
+        </span>
+
+        <p id="message">Enter a number.</p>
+        <p id="sum-of-rolls"></p>
+
+        <hr>
+
+        <div>
+            <ol id="roll-list"></ol>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

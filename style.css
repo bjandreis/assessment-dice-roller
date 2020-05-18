@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+
+body, input, button {
+    font-family: Calibri;
+    font-size: 22px;
+}
+
+input {
+    text-align: center;
+}
+
+#show-all-rolls-button, input {
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+#reset-button {
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#main-block {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgb(44, 44, 44);
+}
+
+#user-input-button {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border-color: lime;
+}
+
+#roll-list {
+    font-size: 32px;
+}
